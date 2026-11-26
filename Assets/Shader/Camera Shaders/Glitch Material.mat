@@ -39,9 +39,9 @@ Material:
     m_Floats:
     - _Blur_Offset: 0.002
     - _Corruption: 0
-    - _Gltich_Speed: 2
+    - _Gltich_Speed: 0.1
     - _Noise_Amount: 2
-    - _Noise_Strenght: 8
+    - _Noise_Strenght: 0.01
     - _Numbers: 100
     - _RoomIntensity: 1
     - _ScanLines_Strenght: 0.408
