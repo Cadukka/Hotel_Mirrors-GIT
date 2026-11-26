@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CTR Shader
-  m_Shader: {fileID: -6465566751694194690, guid: a8352c1df82b51b42ada1f5a21c228a3, type: 3}
+  m_Name: Glitch Material
+  m_Shader: {fileID: -6465566751694194690, guid: 56ee7b243214b83448dff77922c64c0d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -39,11 +39,17 @@ Material:
     m_Floats:
     - _Blur_Offset: 0.002
     - _Corruption: 0
-    - _Numbers: 200
+    - _Gltich_Speed: 2
+    - _Noise_Amount: 2
+    - _Noise_Strenght: 8
+    - _Numbers: 100
     - _RoomIntensity: 1
+    - _ScanLines_Strenght: 0.408
     - _Scan_Lines: 0.05
+    - _Scan_Lines_Speed: 0.05
     m_Colors:
-    - _Color: {r: 2, g: 2, b: 2, a: 1}
+    - _Color: {r: 2.670157, g: 2.670157, b: 2.670157, a: 1}
     - _Color_1: {r: 0.38430128, g: 0.08414913, b: 0.57547164, a: 1}
+    - _Scan_Lines_Amount: {r: 1, g: 10, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
