@@ -38,7 +38,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Blur_Offset: 0.002
-    - _Corruption: 0.1
+    - _Corruption: 0
     - _Numbers: 100
     - _RoomIntensity: 1
     - _Scan_Lines: 0.05

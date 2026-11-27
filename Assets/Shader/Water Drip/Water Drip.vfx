@@ -16,10 +16,10 @@ MonoBehaviour:
   - title: Base Loop
     position:
       serializedVersion: 2
-      x: 851
+      x: 852
       y: -1434
-      width: 477
-      height: 2390
+      width: 476
+      height: 2554
     contents:
     - model: {fileID: 8926484042661614608}
       id: 0
@@ -39,8 +39,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 78
     y: -1434
-    width: 2388
-    height: 3282
+    width: 2936
+    height: 3313
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -80,22 +80,6 @@ MonoBehaviour:
   m_UIInfos: {fileID: 114340500867371532}
   m_CustomAttributes: []
   m_ParameterInfo:
-  - name: Spawn Rate
-    path: Spawn Rate
-    tooltip: 
-    space: -1
-    spaceable: 0
-    sheetType: m_Int
-    realType: Int32
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 1
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
   - name: Drop Intensity
     path: Drop Intensity
     tooltip: 
@@ -108,6 +92,22 @@ MonoBehaviour:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
       m_SerializableObject: 2
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: Spawn Rate
+    path: Spawn Rate
+    tooltip: 
+    space: -1
+    spaceable: 0
+    sheetType: m_Int
+    realType: Int32
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 1
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661614610}
-  m_UIPosition: {x: 877, y: -1374}
+  m_UIPosition: {x: 878, y: -1374}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -299,7 +299,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661614834}
-  m_UIPosition: {x: 877, y: -1086}
+  m_UIPosition: {x: 878, y: -1086}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -4565,7 +4565,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 2041, y: -61}
+  m_UIPosition: {x: 2042, y: -98}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -5310,7 +5310,7 @@ MonoBehaviour:
   m_Children:
   - {fileID: 8926484042661615052}
   - {fileID: 8926484042661615059}
-  m_UIPosition: {x: 2042, y: 776}
+  m_UIPosition: {x: 2042, y: 872}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -6051,7 +6051,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615077}
   - {fileID: 8926484042661615079}
   - {fileID: 8926484042661615133}
-  m_UIPosition: {x: 2042, y: 1271}
+  m_UIPosition: {x: 2042, y: 1302}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -6633,7 +6633,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 484, y: -61}
+  m_UIPosition: {x: 546, y: -60}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -7852,7 +7852,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615137}
   m_ExposedName: Drop Intensity
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 0
   m_Category: 
   m_Min:
     m_Type:
@@ -7926,14 +7926,14 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 0
+  m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 8926484042661615139}
   m_ExposedName: Spawn Rate
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 1
   m_Category: 
   m_Min:
     m_Type:
